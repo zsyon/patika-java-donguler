@@ -10,6 +10,7 @@ public class bolunebilmeKurallari {
     Scanner input = new Scanner(System.in);
     int sayi = input.nextInt();
     int sayi3=0;
+    int sayi4=0;
 
     for(int i=0 ; i<sayi ; i++){
 
@@ -18,13 +19,14 @@ public class bolunebilmeKurallari {
       }
       
       if(i%4==0){
-        System.out.println(i);
+        sayi4 += i;
       }
 
 
     }
 
-    //System.out.println("3'ün Katlarının toplamı : " + sayi3);
+    System.out.println("3'ün Katlarının toplamı : " + sayi3);
+    System.out.println("4'ün Katlarının toplamı : " + sayi4);
     
   }
 
