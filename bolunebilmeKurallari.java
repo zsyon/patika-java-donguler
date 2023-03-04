@@ -27,6 +27,8 @@ public class bolunebilmeKurallari {
 
     System.out.println("3'ün Katlarının toplamı : " + sayi3);
     System.out.println("4'ün Katlarının toplamı : " + sayi4);
+    System.out.println("Ortalamaları : " + (sayi3+sayi4)/2);
+
     
   }
 
