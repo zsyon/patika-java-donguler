@@ -8,12 +8,16 @@ public class tersUcgenYapimi {
     int sayi = input.nextInt();
     int toplam=0;
 
-    for(int i=1 ; sayi>=i ; i++){
+    for(int i=0 ; sayi>0 ; i++){
 
-      for(int j=1 ; sayi<=j ; j--){
-        System.out.println("*");
+      System.out.println(" ");
+
+      for(int j=0 ; j<sayi ; j++){
+        System.out.print("*");
       }
+      sayi--;
     }
+
     
   }
   
