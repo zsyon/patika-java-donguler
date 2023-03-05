@@ -21,7 +21,12 @@ public class mukemmelSayiBulanProgram {
 
     }
 
-    System.out.println(toplam);
+    if(sayi==toplam){
+      System.out.println(sayi + " Mükemmel sayıdır");
+    }
+    else{
+      System.out.println(sayi + " Mükemmel sayı değildir");
+    }
 
 
   }
