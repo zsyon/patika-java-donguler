@@ -9,13 +9,19 @@ public class mukemmelSayiBulanProgram {
     System.out.println("Lütfen sayı giriniz : ");
     Scanner input = new Scanner(System.in);
     int sayi = input.nextInt();
-    int sayi3=0;
-    int sayi4=0;
+    int toplam=0;
 
-    for(int i=0 ; i<sayi ; i++){
+    for(int i=1 ; i<sayi ; i++){
 
-      System.out.println(sayi);
+      if(sayi%i == 0){
+        
+      }
 
+        
+     System.out.println(i);
+     System.out.println(sayi);
+
+      
 
     }
   }
