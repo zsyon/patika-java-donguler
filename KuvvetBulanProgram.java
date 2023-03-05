@@ -8,6 +8,7 @@ public class KuvvetBulanProgram {
     Scanner input = new Scanner(System.in);
     System.out.print("Lütfen bir sayı giriniz : ");
     sayi = input.nextInt();
+
     
   }
   
