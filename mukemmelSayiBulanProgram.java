@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class mukemmelSayiBulanProgram {
   public static void main(String[] args) {
     
-    System.out.println("Lütfen sayı giriniz : ");
+    System.out.print("Lütfen sayı giriniz : ");
     Scanner input = new Scanner(System.in);
     int sayi = input.nextInt();
     int toplam=0;
@@ -14,15 +14,15 @@ public class mukemmelSayiBulanProgram {
     for(int i=1 ; i<sayi ; i++){
 
       if(sayi%i == 0){
+
+        toplam += i;
         
       }
 
-        
-     System.out.println(i);
-     System.out.println(sayi);
-
-      
-
     }
+
+    System.out.println(toplam);
+
+
   }
 }
